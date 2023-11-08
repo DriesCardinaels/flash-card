@@ -1,0 +1,59 @@
+[
+    {
+      "question": "Wat is het algemeen kenmerk van het ademhalingsstelsel tijdens de embryonale en foetale periode?",
+      "answer": ["GEEN functie", "Longen essentieel voor overleven neonatus na geboorte"]
+    },
+    {
+      "question": "Wanneer wordt zelfstandige ademhaling bij een prematuur mogelijk?",
+      "answer": ["Vanaf week 27"]
+    },
+    {
+      "question": "Wat zijn de oorsprongen van de bronchiale boom?",
+      "answer": ["Entodermale oorsprong: dekepitheel & klieren", "Mesenchymale oorsprong: bindweefsel & spieren"]
+    },
+    {
+      "question": "Wat is het primordium van de laryngo-tracheaal diverticulum?",
+      "answer": ["Oesofago-tracheale plooien"]
+    },
+    {
+      "question": "Wat is de toepassing van oesofageo-tracheale fistels of oesofageale atresie?",
+      "answer": ["Geen volledige scheiding tussen diverticulum & oesophagus -> ontstaan oesofageo-tracheale fistels of oesofageale atresie"]
+    },
+    {
+      "question": "Wat is de oorsprong van het mesenchym voor de ontwikkeling van de larynx?",
+      "answer": ["Afkomstig van 4de & 6de kieuwbogen"]
+    },
+    {
+      "question": "Wat is de functie van het septum primum in de ontwikkeling van het hart?",
+      "answer": ["Voor geboorte: shunting van geoxygeneerd bloed van rechter naar linker atrium", "Na geboorte: verderzetten van shunting van geoxygeneerd bloed van rechter naar linker atrium"]
+    },
+    {
+      "question": "Wat zijn de semilunaire kleppen in het hart?",
+      "answer": ["Ontstaan uit 4 truncuszwellingen"]
+    },
+    {
+      "question": "Wat zijn de atrioventriculaire kleppen in het hart?",
+      "answer": ["Ontstaan van proliferaties van weefsels rond AV kanalen"]
+    },
+    {
+      "question": "Wat is de meest voorkomende positionele hartafwijking?",
+      "answer": ["Dextrocardia"]
+    },
+    {
+      "question": "Wat is de meest voorkomende vorm van ASD (atriaal septaal defect)?",
+      "answer": ["Patent foramen ovale"]
+    },
+    {
+      "question": "Wat zijn de vier klinisch significante types ASD?",
+      "answer": ["Ostium secundum defect", "Endocardiaal cushion defect met foramen primum defect", "Sinus venosus defect", "Common atrium"]
+    },
+    {
+      "question": "Wat zijn de afwijkingen in septumvorming van conotruncus die leiden tot transpositie grote vaten?",
+      "answer": ["Grote vaten komen niet op de juiste plek"]
+    },
+    {
+      "question": "Wat zijn de afwijkingen in septumvorming van conotruncus die leiden tot persisterende truncus arteriosus?",
+      "answer": ["Bloed van rechter & linker ventrikel kan in aorta EN pulmonaire vaten"]
+    }
+  ]
+  
