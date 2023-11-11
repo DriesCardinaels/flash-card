@@ -1,106 +1,185 @@
+:root {
+  --main-bg-color: #DDF2FD;
+  
+  --primary-color: #9BBEC8;
+  --secondary-color: #427D9D;
+  --tertiary-color: #164863;
+
+  --light-secondary-color: #71a3bd;
+
+  --header-height: 60px;
+  --footer-height: 100px;
+  --body-height: calc(100vh - var(--footer-height) - var(--header-height));
+}
+
 .app {
   width: 100vw;
   height: 100vh;
 
-  background-color: #F2F2F2;
+  background-color: var(--main-bg-color);
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   flex-direction: column;
+
+  user-select: none;
 }
 
-.no-data {
-  text-transform: uppercase;
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+
+.header {
+  width: calc(100vw - 60px);
+  height: var(--header-height);
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 0 30px;
+
+  column-gap: 15px;
 }
 
-.flashcard, .no-data {
-  position: relative;
+.header .item {
+  background-color: white;
+  padding: 5px 10px;
+
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.header .item.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+
+.body {
+  width: 100vw;
+  height: var(--body-height);
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  font-size: 16px;
-  font-weight: 600;
+.body .card {
+  position: relative;
+  background-color: var(--primary-color);
 
-  text-align: center;
-  font-style: italic;
+  min-width: 300px;
 
-  min-width: 500px;
-  max-width: 500px;
-  height: 300px;
+  width: 50%;
+  height: 60%;
 
-  padding: 35px;
+  border-radius: 12px;
 
-  border-radius: 8px;
+  box-shadow: 8px 8px 0px 0px var(--tertiary-color);
+  -webkit-box-shadow: 8px 8px 0px 0px var(--tertiary-color);
+  -moz-box-shadow: 8px 8px 0px 0px var(--tertiary-color);
 
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 
   cursor: pointer;
 
-  box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
-
-  transform-style: preserve-3d;
-  transition: transform 0.6s;
+  scale: 1;
+  transition: 0.5s;
 }
 
-.flashcard.flipped {
-  transform: rotateY(180deg);
+.card:hover {
+  scale: 1.02;
+  transition: 0.5s;
 }
 
+.card .question, .card .answers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.flashcard.flipped .answer {
-  transform: rotateY(180deg);
-  text-align: justify;
+  width: calc(100% - 60px);
+  
+  padding: 30px;
 }
 
-ul {
-  list-style: disc;
+.title {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin: 0;
 }
 
-li {
-  padding-left: 10px;
+.title p {
+  margin: 0;
 
-  margin-bottom: 5px;
+  color: var(--tertiary-color);
+  
+  font-size: small;
 }
 
-li:last-child {
-  margin-bottom: 0;
+.card .question h1 {
+  font-size: large;
+  color: var(--tertiary-color);
+
+  text-align: center;
+  user-select: none;
 }
 
-footer {
+.answers ul {
+  list-style: decimal;
+  font-size: large;
+
+  color: var(--tertiary-color);
+}
+
+.answers ul li {
+  margin-bottom: 10px;
+}
+
+.answers p {
+  font-size: large;
+  color: var(--tertiary-color);
+
+  user-select: none;
+}
+
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+
+.footer {
   width: 100vw;
-
-  margin-bottom: 80px;
+  height: var(--footer-height);
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header {
-  width: calc(100vw - 100px);
-
-  display: flex;
-  justify-content: right;
-
-  margin-top: 30px;
-}
-
-.instructions, .file-upload {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #767575;
-
+.footer p {
+  color: var(--light-secondary-color);
   font-style: italic;
-
-  text-align: center;
 }
 
-.bold {
+.footer p span {
+  background-color: white;
+  padding: 5px 10px;
+  margin: 0 2px;
+
+  font-style: normal;
+
   font-weight: bold;
+  color: var(--tertiary-color);
+  border-radius: 5px;
 }
+
+/* -------- -------- -------- */
+/* -------- -------- -------- */
+/* -------- -------- -------- */

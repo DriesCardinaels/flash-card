@@ -1,68 +1,142 @@
 [
   {
-    "question": "Wat zijn de twee types epitheel die overheersend zijn in het gasgeleidend deel van het respiratoir stelsel?",
+    "context": "Microscopie van het respiratoir stelsel",
+    "question": "Welke twee types epithelia overheersen in het gasgeleidend deel van het respiratoir stelsel?",
     "answer": [
       "Pseudomeerlagig cilindrisch epitheel met cilia & slijmbekercellen",
       "Meerlagig plaveiselepitheel (lokaal)"
     ]
   },
   {
-    "question": "Noem de delen van het extra-pulmonaire gasgeleidend deel van het respiratoir stelsel.",
-    "answer": [
-      "Neusholte",
-      "Nasopharynx",
-      "Larynx",
-      "Trachea",
-      "Bronchus principialis (hoofdbronchus)"
-    ]
-  },
-  {
-    "question": "Wat zijn de histologische kenmerken van de trachea?",
+    "context": "Histologische bouw van trachea",
+    "question": "Wat zijn de algemene kenmerken van de trachea?",
     "answer": [
       "Tubulaire structuur ~ 10cm",
       "Incomplete circulaire kraakbeenringen: 15-20",
-      "Posterior wand: afwezigheid kraakbeen, fibrocollageneus ligament en gladde spier (m trachealis)"
+      "Posterior wand: afwezigheid kraakbeen met fibrocollageneus ligament & gladde spier (m trachealis)",
+      "Typisch respiratoir epitheel: pseudomeerlagig cilindrisch trilhaarepitheel met veel slijmbekercellen, lamina propria met talrijke seromuceuze klieren en rijk gevasculariseerd"
     ]
   },
   {
-    "question": "Welke celtypen komen voor in het epitheel van de bronchiale boom?",
+    "context": "Algemene basisstructuur verschillende bronchi",
+    "question": "Wat zijn de hoofdkenmerken van de algemene basisstructuur van verschillende bronchi?",
+    "answer": [
+      "Pseudomeerlagig cilindrisch epitheel met cilia",
+      "Lamina propria met elastische elementen",
+      "Variabele hoeveelheden kraakbeenringen",
+      "Submucosa met gladde spiervezels, seromuceuze klieren, fibrocollageneus stroma met elastische vezels, MALT",
+      "Hoofdbronchus = primaire bronchus = bronchus principalis, extra-pulmonair gelegen, morfologische verschillen met trachea"
+    ]
+  },
+  {
+    "context": "Celtypen in epitheel van bronchiale boom",
+    "question": "Wat zijn de verschillende celtypen in het epitheel van de bronchiale boom?",
     "answer": [
       "Cilindrische cellen met cilia",
-      "Basale cellen",
+      "Basale cellen (thv basaal membraan, betrokken bij wondherstel proliferatie/differentiatie)",
       "Intermediaire cellen",
-      "Slijmbekercellen",
-      "Neuro-endocriene cellen"
+      "Slijmbekercellen (tussen cilindrische cellen met cilia, mogelijke stijging bij chronisch respiratoire ziekten)",
+      "Neuro-endocriene cellen (thv basaal membraan, met vorming van neuroepitheliale lichamen)",
+      "Clara-cellen (voornamelijk in terminale bronchioli, met veel mitochondria, veel glad ER, elektronendichte granula en geen cilia)"
     ]
   },
   {
-    "question": "Wat zijn de functies van de type 1 en type 2 pneumocyten in de alveolaire wand?",
+    "context": "Histologisch bouw van bronchioli",
+    "question": "Wat zijn de kenmerken van de histologie van bronchioli?",
     "answer": [
-      "Type 1 pneumocyten: gasdiffusie, platte cel met weinig mitochondriën",
-      "Type 2 pneumocyten: secretie surfactans, ronde cel met acidofiel cytoplasma en grote sferische lichamen"
+      "Uitsluitend intra-pulmonair gelegen",
+      "1-laag cilindrisch tot kubisch epitheel met trilharen",
+      "Slechts enkele slijmbekercellen",
+      "Prominente laag gladde spiervezels (onregelmatige spiraal)",
+      "Geen seromuceuze klieren, geen kraakbeenplaten",
+      "Neuro-epitheliale lichaampjes (cluster van neuro-endocriene cellen)",
+      "Clara-cellen (veel mitochondria, veel glad ER, elektronendichte granula, geen cilia)"
     ]
   },
   {
-    "question": "Wat zijn de belangrijkste functionele vaten van de longen?",
+    "context": "Gaswisselend deel",
+    "question": "Wat zijn de delen van het hemi-acinus?",
     "answer": [
-      "Pulmonale arteries: dragen gedeoxygeneerd bloed van rechterkant hart naar longen",
-      "Pulmonale venen: dragen geoxygeneerd bloed van longen naar linkerkant hart"
+      "Respiratorische bronchiolus",
+      "Ductus alveolaris",
+      "Sacculus alveolaris",
+      "Alveolus",
+      "Alveolaire sfincters"
     ]
   },
   {
-    "question": "Wat zijn de twee lymfevatsystemen in de longen en waar draineren ze naar?",
+    "context": "Longalveoli",
+    "question": "Wat zijn de algemene kenmerken van longalveoli?",
     "answer": [
-      "Diepe systeem: vanuit interstitium, via wanden van bronchi & pulmonale vaten naar lymfeklieren in longhilus",
-      "Oppervlakkig systeem: vanuit viscerale pleura, via interlobulaire septa naar lymfeklieren in longhilus"
+      "Luchtzakjes, zakvormige uitstulpingen (‘spons’-aspect van long)",
+      "150-400 miljoen longalveoli",
+      "Hoofdzakelijke plaats voor gasuitwisseling",
+      "Alveoli openen meestal in sacculus of ductus alveolaris, soms direct in respiratoire bronchiolus",
+      "Porie van Kohn voor snelle & gelijke verdeling van lucht"
     ]
   },
   {
-    "question": "Wat zijn de samenstellende lagen van de viscerale pleura?",
+    "context": "Cellulaire componenten van alveolaire wand",
+    "question": "Wat zijn de afgeplatte epitheelcellen in de alveolaire wand en wat is hun functie?",
     "answer": [
-      "Platte mesotheliale cellen",
-      "Los fibrocollageneus weefsel (zonder basaal membraan)",
-      "Onregelmatige, buitenste elastische laag",
-      "Interstitiële laag van los, fibrocollageneus stroma; bevattende lymfevaten, bloedvaten, zenuwen & gladde spier vezels",
-      "Binnenste elastische laag; bevattende elastische vezels met korte lengte"
+      "Type 1 pneumocyten",
+      "Functie: gas diffusie, 40% van alveolaire celpopulatie, platte cel, samengehouden door tight junctions, weinig mitochondriën",
+      "Type 2 pneumocyten",
+      "Functie: secretie surfactans, 60% van alveolaire celpopulatie, ronde cel, donkere nuclei, acidofiel cytoplasma, veel mitochondriën, grote sferische lichamen van gelamelleerd materiaal",
+      "Alveolaire macrofagen, functies: fagocytose, verwijderen surfactans, secretie van enzymen, patrouilleren in alveolaire holten",
+      "Interalveolair septum met schematische weergave in powerpoint"
+    ]
+  },
+  {
+    "context": "Gasuitwisseling in distale respiratoire tractus",
+    "question": "Waar vindt gasuitwisseling plaats in het respiratoire stelsel?",
+    "answer": [
+      "In distale respiratoire tractus, met delen van het hemi-acinus zoals respiratoire bronchiolus, ductus alveolaris, sacculus alveolaris en alveolus"
+    ]
+  },
+  {
+    "context": "Chronische obstructieve pulmonaire ziekten (COPD)",
+    "question": "Wat zijn de kenmerken en oorzaken van chronische obstructieve pulmonaire ziekten (COPD)?",
+    "answer": [
+      "Moeilijkheden met lucht in & uit distale respiratoire boom te krijgen",
+      "Oorzaken: chronische bronchitis (verdikking bronchiale wanden, overmatig slijm), emfyseem (destructie wanden van ductus/sacculus alveolaris & alveoli), asthma (reversibele obstructieve luchtweg ziekte)"
+    ]
+  },
+  {
+    "context": "Pulmonale vasculatuur",
+    "question": "Wat zijn de functionele vaten in de pulmonale vasculatuur?",
+    "answer": [
+      "Pulmonale arteries dragen gedeoxygeneerd bloed van rechterkant hart naar longen",
+      "Pulmonale venen dragen geoxygeneerd bloed van longen naar linkerkant hart",
+      "Pulmonaal arterieel & veneus systeem = lage druk systeem"
+    ]
+  },
+  {
+    "context": "Voedende vaten (bronchiale arteriën & venen)",
+    "question": "Wat zijn de voedende vaten in de longen?",
+    "answer": [
+      "Bronchiale arteriën (directe laterale takken van thoracale aorta, anastomose met pulmonale arteriële takken)",
+      "Bronchiale venen (draineren in v azygos & v hemiazygos, anastomosen tussen bronchiale & pulmonaire venen)"
+    ]
+  },
+  {
+    "context": "Lymfevaten",
+    "question": "Wat is het patroon van lymfevaten in het respiratoire stelsel?",
+    "answer": [
+      "Voorbij ductus alveolaris geen lymfevaten",
+      "Interalveolaire septa bevatten geen lymfevaten",
+      "Lymfevaten drainage vanuit interstitium via wanden van bronchi & pulmonale vaten",
+      "Drainage naar lymfeklieren in longhilus"
+    ]
+  },
+  {
+    "context": "Pleura",
+    "question": "Wat zijn de algemene kenmerken van de pleura?",
+    "answer": [
+      "Sereus vlies dat long bekleedt, bedekt met mesotheel, 2 lagen (visceropleura & somatopleura)",
+      "Pleuraholte tussen beide bladen",
+      "Samenstelling viscerale pleura met 5 lagen, interstitiële laag van los, fibrocollageneus stroma met lymfevaten, bloedvaten, zenuwen & gladde spiervezels",
+      "Samenstelling parietale pleura is vergelijkbaar maar met slechts 1 laag elastische vezels"
     ]
   }
 ]
